@@ -13,4 +13,4 @@
 	  2：14.1nodejs-xss/baiduNewsJs/javascript/baiduNews.js里从服务端获取数据内容进行filterXSS过滤。
 	  3：定义了htmlDecode将数据库被转义的符号反转义，以便在html页面中可正确显示。在main.js末尾处运用。
 
-后台部分：1：14.1nodejs-xss/app.js 定义了html字符转义过滤函数htmlEncode，可将前端传来的数据过滤处理后再	保存至数据库。
+后台部分：1：14.1nodejs-xss/app.js 定义了html字符转义过滤函数htmlEncode，可将前端传来的数据过滤处理后再保存至数据库。
