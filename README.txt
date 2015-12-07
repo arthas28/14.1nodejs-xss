@@ -9,13 +9,8 @@
 
 一，完善安全性漏洞部分
 
-前端部分：1：14.1nodejs-xss/baiduNewsJs/javascript/main.js里从服务端获取数据内容进行filterXSS过滤，	有效预防了xss存储型注入攻击。
-	2：14.1nodejs-xss/baiduNewsJs/javascript/baiduNews.js里从服务端获取数据内容进行filterXSS	过滤。
-	3：定义了htmlDecode将数据库被转义的符号反转义，以便在html页面中可正确显示。在main.js末尾处运用。
+前端部分：1：14.1nodejs-xss/baiduNewsJs/javascript/main.js里从服务端获取数据内容进行filterXSS过滤，有效预防了xss存储型注入攻		     击。
+	  2：14.1nodejs-xss/baiduNewsJs/javascript/baiduNews.js里从服务端获取数据内容进行filterXSS过滤。
+	  3：定义了htmlDecode将数据库被转义的符号反转义，以便在html页面中可正确显示。在main.js末尾处运用。
 
 后台部分：1：14.1nodejs-xss/app.js 定义了html字符转义过滤函数htmlEncode，可将前端传来的数据过滤处理后再	保存至数据库。
-
-
-三，结语
-
-希望老师给出改善意见，谢谢！
